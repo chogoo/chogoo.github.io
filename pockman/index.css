@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*Copyright ©整活网站*/
+/*以下为元素选择器内容*/
+body {
+    background: url('https://zhaobotzhenghuo12634.gitee.io/picture/zzh.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+a {
+    background-color: RGBa(20,20,20,0.7);
+    width: 100%;
+    margin: 16px 16px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 800px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: gray;
+    font-weight: lighter;
+}
+button {
+    background-color: RGBa(200,200,200,0.7);
+    height: 60px;
+    width: 98%;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    text-align: center;
+}
+input {
+    background-color: RGBa(200,200,200,0.7);
+	width: 100%;
+    margin: 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+input:hover {
+    background-color: RGBa(200,200,200,0.9);
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+textarea {
+    background-color: RGBa(200,200,200,0.7);
+    width: 99%;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+textarea:hover {
+    background-color: RGBa(200,200,200,0.9);
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: lighter
+}
+p {
+    text-align: center;
+    color: white;
+    font-weight: lighter
+}
+div {
+    margin: auto;
+}
+table {
+    margin: auto;
+}
+/*以下为Class选择器内容*/
+/*黑色页眉*/
+.mazi {
+    border-radius: 0px;
+    text-align: center;
+    background-color: RGBa(20,20,20,1);
+    color: white;
+    padding: 16px 32px;
+    margin: 0px 0px;
+}
+/*div居中*/
+.main {
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*基础样式-块*/
+.pock {
+    background-color: RGBa(200,200,200,0.7);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.pock:hover {
+    background-color: RGBa(200,200,200,0.9);
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.pockn {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.pockn:hover {
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.pockns {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.pockns:hover {
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+/*以下为id选择器内容;暂无*/

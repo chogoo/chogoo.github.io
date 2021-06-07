@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta charset="utf-8" name=renderer  content=webkit>
+<link rel="shortcut icon" href="favicon.ico"/>
+<title>Chogoo</title>
+<script type="text/javascript">
+function getValue()
+  {
+  var x=document.getElementById("myHeader").value
+  window.location.href=x
+  }
+function fic()
+	{
+  window.location.href='error.html'
+  }
+</script>
+<style>
+body {
+    font-weight: lighter;
+    background: url('https://zhaobotzhenghuo12634.gitee.io/picture/zzh.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-weight: lighter;
+}
+button {
+    background-color: RGBa(200,200,200,0);
+    height: 60px;
+    width: 99%;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-style: dashed;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    text-align: center;
+}
+button:hover {
+    background-color: RGBa(200,200,200,0.1);
+    font-size: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input {
+    background-color: RGBa(200,200,200,0);
+    border-style: dashed;
+    width: 99%;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+input:hover {
+    background-color: RGBa(200,200,200,0.1);
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+p {
+    text-align: center;
+    color: white;
+}
+div {
+    margin: auto;
+}
+</style>
+</head>
+<body>
+<div>
+  <div>
+    <h1>淦豪专属网站</h1>
+  </div>
+    <input type='text' id="myHeader" placeholder="输入密钥以进入">
+  </div>
+  <div>
+    <button onclick="getValue()" style:'width:100%; height:60px;'>进入</button>
+    <br>
+  </div>
+  <div>
+    <p>Copyright ©2019-2021 POCK整活网站 <br>
+      QQ:1989758290</p>
+  </div>
+</div>
+</body>
+</html>
